@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/final_shopping"
+    android:background="@drawable/constraintbackground"
+    android:layout_height="match_parent"
+    tools:context=".Final_Shopping">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/drop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196"
+        app:srcCompat="@drawable/placeholder" />
+
+    <TextView
+        android:id="@+id/drop"
+        android:layout_width="198dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/ubu"
+        android:text="the order has already been confirmeed"
+
+        android:textColor="#D1CACA"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="241dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/ubu"
+        android:text="Enter the details to proceed"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/finalText"
+        android:layout_width="241dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/ubu"
+        android:paddingLeft="20dp"
+        android:text="Final Step!"
+        android:textColor="#1A1222"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonbleh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <Button
+        android:id="@+id/buttonbleh"
+        android:layout_width="375dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Place Order"
+        android:background="@drawable/custbuttonom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="366dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/ubu"
+        android:hint="Address"
+        app:layout_constraintBottom_toTopOf="@+id/totalamount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="366dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/ubu"
+        android:hint="Phone Number"
+        android:inputType="number"
+
+        app:layout_constraintBottom_toTopOf="@+id/totalamount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="366dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/ubu"
+        android:hint="Pincode"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/totalamount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" />
+
+    <TextView
+        android:id="@+id/totalamount"
+        android:layout_width="370dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/ubu"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbleh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

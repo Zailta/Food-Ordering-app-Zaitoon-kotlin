@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/registration"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:background="@drawable/constraintbackground">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="370dp"
+        android:layout_height="656dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/constraintbackground"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <TextView
+        android:id="@+id/signintext"
+        android:layout_width="157dp"
+
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/ubu"
+        android:textColor="#1A1222"
+
+        android:text="Sign-Up !"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ellipse"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/mmedium"
+        android:text="By Siging-in you agree to all the terms and conditions"
+        android:textSize="7sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gog"
+        app:layout_constraintVertical_bias="0.048" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ic_cooking"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:foreground="@drawable/background1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="95.5dp"
+        android:layout_height="90.5dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/logo2"
+        android:scaleType="centerCrop"
+        android:transitionName="zailta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="278dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/ubu"
+        android:text="Sign-in and enjoy amazing food!"
+        android:textAllCaps="false"
+        android:textColor="#1A1222"
+        android:textSize="21sp"
+        android:textStyle=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="336dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background"
+        android:drawableLeft="@drawable/ic_border_color_black_24dp"
+        android:ems="10"
+        android:fontFamily="@font/ubu"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:shadowColor="@color/colorPrimary"
+
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/editname"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="336dp"
+        android:layout_height="38dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background"
+        android:drawableLeft="@drawable/ic_border_color_black_24dp"
+        android:ems="10"
+        android:fontFamily="@font/ubu"
+        android:hint="Enter Username"
+
+        android:inputType="textEmailAddress"
+        android:shadowColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textColor="#000"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gog"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.584" />/
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="336dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:ems="10"
+        android:fontFamily="@font/ubu"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+
+        android:shadowColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editname"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <EditText
+        android:id="@+id/editpassconfirm"
+        android:layout_width="336dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+
+        android:ems="10"
+        android:fontFamily="@font/ubu"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:shadowColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/gog"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editpass"
+        app:layout_constraintVertical_bias="0.153" />
+
+
+    <Button
+        android:id="@+id/gog"
+        android:layout_width="218dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custbuttonom"
+        android:drawableRight="@drawable/ic_restaurant_black_24dp"
+        android:fontFamily="@font/ubu"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textColor="#351841"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.842">
+
+    </Button>
+
+</android.support.constraint.ConstraintLayout>
