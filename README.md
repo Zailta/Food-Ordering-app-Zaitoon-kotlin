@@ -1,6 +1,6 @@
 # Food-Ordering-app-Zaitoon-kotlin
 This particular application is named Zaitoon after
-the name of its restaurant chain. The application can post and retrieve data from the server and hence can
+the name of a restaurant chain. The application can post and retrieve data from the server and hence can
 work on different devices at the same time. In this case the server used is phpMyAdmin along with Xamp
 control. phpMyAdmin is a PHP based free software. It is meant to handle the administration of MySQL over
 the online. It provides a wide variety of SQL features and intuitive web interfaces.
